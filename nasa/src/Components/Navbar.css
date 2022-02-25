@@ -1,0 +1,51 @@
+* {
+ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+.navbar-container {
+ background-color: #000;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0.5rem;
+}
+
+.logo-container {
+ display: flex;
+}
+
+.nasa-logo {
+ max-height: 4rem;
+ padding-left: 3rem;
+}
+
+.slogan {
+ color: #9d9d9d;
+ font-weight: 100;
+}
+
+.slogan span {
+ color: #fff;
+}
+
+.u-list {
+ list-style: none;
+ display: flex;
+ align-items: center;
+ padding-right: 3rem;
+}
+
+.u-list li {
+ padding: 0.5rem;
+ font-size: 0.9rem;
+ color: #9d9d9d;
+}
+
+.u-list li:hover {
+ color: #fff;
+ cursor: pointer;
+}
