@@ -1,11 +1,20 @@
-import "./App.css";
+import React, { useState, createContext } from "react";
+import { InfoContainer } from "./Components/InfoContainer";
+import { Slider } from "./Components/Slider";
+import { DateDivisions } from "./Containers/DateDivisions";
 
-function App() {
+export const Context = React.createContext();
+
+export const App = () => {
+ const [context, setContext] = useState("");
+
  return (
-  <div className="App">
-   <h1>Hello World</h1>
-  </div>
+  <Context.Provider value={[context, setContext]}>
+   <div className="main">
+    <InfoContainer />
+    <Slider />
+    <DateDivisions />
+   </div>
+  </Context.Provider>
  );
-}
-
-export default App;
+};

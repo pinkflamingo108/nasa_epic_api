@@ -1,0 +1,78 @@
+* {
+ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+.image-container {
+ width: 100%;
+}
+.image-header,
+.slide-header {
+ background-color: #a6a6a6;
+ height: 2rem;
+ width: 25vw;
+ border: 1px solid gray;
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+}
+
+/* .image-header h4,
+.slide-header h4 {
+ padding: 0.5rem;
+ font-weight: 100;
+} */
+
+.slider-header {
+ display: flex;
+}
+
+#container {
+ width: 100%;
+ background-color: black;
+ /* display: flex;
+ justify-content: center; */
+}
+
+.wrapper {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.header-menu {
+ margin-left: 1rem;
+}
+
+.arrow-container {
+ width: 100%;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.my-arrow {
+ position: relative;
+ top: -0.8rem;
+ margin-right: 1rem;
+}
+
+.image-box {
+ background-color: black;
+ height: 25vh;
+ width: 25vw;
+ border: 1px solid gray;
+}
+
+.no-show {
+ display: none;
+}
+
+.show {
+ display: block;
+}
+
+.nasa-calendar {
+ color: #32cd32;
+ /* background-color: black; */
+}
