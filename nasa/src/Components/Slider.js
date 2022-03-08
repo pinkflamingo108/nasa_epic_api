@@ -49,6 +49,7 @@ export const Slider = () => {
             onClick={print}
             className={`planet-images`}
             src={`https://epic.gsfc.nasa.gov/archive/natural/${year}/${month}/${day}/jpg/${info?.image}.jpg`}
+            alt={""}
            />
            <div className="num-container">
             <p>{num}</p>

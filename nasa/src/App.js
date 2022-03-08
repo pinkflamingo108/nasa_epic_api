@@ -1,7 +1,6 @@
 import React, { useState, createContext } from "react";
 import { InfoContainer } from "./Components/InfoContainer";
 import { Slider } from "./Components/Slider";
-import { DateDivisions } from "./Containers/DateDivisions";
 
 export const Context = React.createContext();
 
@@ -13,7 +12,6 @@ export const App = () => {
    <div className="main">
     <InfoContainer />
     <Slider />
-    <DateDivisions />
    </div>
   </Context.Provider>
  );
